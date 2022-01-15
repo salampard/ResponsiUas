@@ -1,0 +1,568 @@
+CRITICAL - 2022-01-14 03:04:59 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('vaksin/masuk')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('vaksin/masuk')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 03:11:52 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\sign-in\signin.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('sign-in/signin', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(16): view('sign-in/signin')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->masuk()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 03:24:55 --> Undefined property: App\Controllers\Vaksin::$adminModel
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 03:34:51 --> Undefined property: App\Controllers\Vaksin::$adminModel
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 03:36:10 --> Undefined property: App\Controllers\Vaksin::$load
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 03:45:01 --> Undefined property: App\Controllers\Vaksin::$email
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-14 03:47:10 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-01-14 03:47:11 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\otp.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('otp', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(72): view('otp')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 04:03:55 --> Class "Myth\Auth\Authentication\Passwords\ValidationRules" not found
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(31): CodeIgniter\Controller->validate(Array)
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-14 04:05:13 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\otp.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('otp', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(61): view('otp')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 04:05:25 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\otp.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('otp', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(61): view('otp')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 04:14:19 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\otp.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('otp', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(61): view('otp')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 04:41:56 --> Undefined property: App\Controllers\Vaksin::$load
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Vaksin->__construct()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 04:43:55 --> Undefined property: App\Controllers\Vaksin::$load
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Vaksin->__construct()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 04:45:06 --> Call to undefined function App\Controllers\random_string()
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 04:46:52 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\otp.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('otp', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(87): view('otp')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 04:52:39 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('vaksin/otp')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('vaksin/otp')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 04:52:48 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('vaksin/validasi')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('vaksin/validasi')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 04:52:59 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\otp.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('otp', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(93): view('otp')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->validasi()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 04:53:36 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('vaksin/validasi')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('vaksin/validasi')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-14 05:05:15 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-01-14 05:05:15 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\otp.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('otp', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(87): view('otp')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 05:07:28 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\otp.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('otp', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(87): view('otp')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 05:13:15 --> date_default_timezone_get() expects exactly 0 arguments, 1 given
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(97): date_default_timezone_get('Asia/Jakarta')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->validasi()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 18:33:12 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(112): redirect('vaksin/validasi', Array)
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->validasi()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-14 18:35:57 --> Undefined property: App\Controllers\Vaksin::$session
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->validasi()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-14 20:24:15 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-01-14 20:24:15 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `data` S...', 0)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `data` S...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `data` S...')
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `data` S...', Array, false)
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('18214', Array)
+#8 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->login()
+#10 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#11 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-01-14 08:13:20 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:15:52 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:16:36 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:16:38 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:18:57 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:20:48 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:21:52 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(135): redirect('welcome')
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->keluar()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-14 08:22:21 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:22:45 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:22:55 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:24:29 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:26:12 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:28:12 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:28:41 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:29:41 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:33:09 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:33:42 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:34:36 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:36:18 --> LoginFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('LoginFilter', 'before')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 08:49:51 --> Undefined variable $vaksin
+#0 C:\xampp\htdocs\vaksinasi\app\Views\beranda.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(33): view('beranda')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->beranda()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 08:53:54 --> Undefined variable $vaksin
+#0 C:\xampp\htdocs\vaksinasi\app\Views\beranda.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(36): view('beranda')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->beranda()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 09:02:39 --> Undefined variable $validation
+#0 C:\xampp\htdocs\vaksinasi\app\Views\beranda.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(36): view('beranda', Array)
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->beranda()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 10:02:33 --> Too few arguments to function App\Controllers\Vaksin::delete(), 0 passed in C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->delete()
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 10:02:58 --> Call to a member function removeFile() on string
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->delete()
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-14 10:39:21 --> File not found: /assets/gambar/182141.jpg
+#0 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/assets/gambar/...')
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('/assets/gambar/...', true)
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('/assets/gambar/...')
+#3 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(168): CodeIgniter\HTTP\Response->download('182141.jpg', NULL)
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->download('1')
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-14 12:53:41 --> Undefined property: App\Controllers\Vaksin::$output
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 12:54:26 --> Array to string conversion
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 12:55:26 --> Array to string conversion
+#0 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-14 13:13:18 --> Undefined variable $data
+#0 C:\xampp\htdocs\vaksinasi\app\Views\home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(23): view('home', Array)
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 13:14:36 --> Array to string conversion
+#0 C:\xampp\htdocs\vaksinasi\app\Views\home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(25): view('home', Array)
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 13:14:49 --> Undefined variable $data
+#0 C:\xampp\htdocs\vaksinasi\app\Views\home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(25): view('home', Array)
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 13:56:35 --> Undefined array key "array"
+#0 C:\xampp\htdocs\vaksinasi\app\Views\home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(25): view('home', Array)
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 15:03:26 --> Undefined array key "data"
+#0 C:\xampp\htdocs\vaksinasi\app\Views\home.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(26): view('home', Array)
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 15:03:48 --> Undefined variable $json
+#0 C:\xampp\htdocs\vaksinasi\app\Views\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(26): view('home', Array)
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 15:18:40 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\vaksinasi\app\Views\home.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 101)
+#1 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(26): view('home', Array)
+#5 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-14 15:23:03 --> file_get_contents(dataJson.json): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 102)
+#1 C:\xampp\htdocs\vaksinasi\app\Views\home.php(102): file_get_contents('dataJson.json')
+#2 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\vaksinasi\app\Controllers\Vaksin.php(26): view('home', Array)
+#6 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Vaksin->index()
+#7 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vaksin))
+#8 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vaksinasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vaksinasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
